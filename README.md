@@ -22,16 +22,21 @@ Not graded yet
 
 ## Usage
 
+1. Run Make to compile
+```
 make
+```
 
-`./push_swap [insert some numbers to sort]`
-
-or
-
-`./push_swap `ruby -e "puts (-1000..1000).to_a.shuffle.join(' ')"``
-
-** ruby is required*
+2. Run the program 
+```
+./push_swap [insert some numbers to sort]
+```
+or create a var "ARG" and use ruby to display
+```
+ARG=`ruby -e "puts (-540..539).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./checker -v $ARG
+```
+* **ruby must be installed**
 
 ## More about the project
 
-Check 
+[Check the subject file](https://github.com/thaisavelino/push-swap/blob/master/about-project/push_swap.en.pdf)
