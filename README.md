@@ -1,10 +1,10 @@
-#Push Swap
+# Push Swap
 Not finished yet
 
-#Grade
+## Grade
 Not graded yet
 
-#Instructions
+## Instructions
 
 | instructions  | Description   |
 |:-------------:|---------------|
@@ -20,14 +20,23 @@ Not graded yet
 | rrb           | rotates stuck B down by one |
 | rrr           | rotates both A and B down by one |
 
-#Usage
+## Usage
 
+1. Run Make to compile
+```
 make
+```
 
-`./push_swap [insert some numbers to sort]`
+2. Run the program 
+```
+./push_swap [insert some numbers to sort]
+```
+or create a var "ARG" and use ruby to display
+```
+ARG=`ruby -e "puts (-540..539).to_a.shuffle.join(' ')"``; ./push_swap $ARG | ./checker -v $ARG
+```
+* **ruby must be installed**
 
-or
+## More about the project
 
-`./push_swap `ruby -e "puts (-1000..1000).to_a.shuffle.join(' ')"``
-
-** ruby is required*
+[Check the subject file](https://github.com/thaisavelino/push-swap/blob/master/about-project/push_swap.en.pdf)
