@@ -1,10 +1,10 @@
-#Push Swap
+# Push Swap
 Not finished yet
 
-#Grade
+## Grade
 Not graded yet
 
-#Instructions
+## Instructions
 
 | instructions  | Description   |
 |:-------------:|---------------|
@@ -20,7 +20,7 @@ Not graded yet
 | rrb           | rotates stuck B down by one |
 | rrr           | rotates both A and B down by one |
 
-#Usage
+## Usage
 
 make
 
@@ -31,3 +31,7 @@ or
 `./push_swap `ruby -e "puts (-1000..1000).to_a.shuffle.join(' ')"``
 
 ** ruby is required*
+
+## More about the project
+
+Check 
